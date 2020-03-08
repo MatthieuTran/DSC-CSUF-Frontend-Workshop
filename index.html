@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Boba Overflow</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav id="nav-desktop">
+      <div class="grid-nav">
+        <a href="index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Boba Overflow Logo">
+        </a>
+
+        <!-- Desktop Navigation-->
+        <ul>
+          <li class="active">
+            <a href="http://">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="http://">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="http://">
+              Menu
+            </a>
+          </li>
+          <li>
+            <a href="http://">
+              Locations
+            </a>
+          </li>
+
+        </ul>
+
+        <a class="btn right" href="http://">
+          Contact Us
+        </a>
+      </div>
+
+    </nav>
+
+    <nav id="nav-mobile">
+      <div class="nav-grid">
+        <a href="index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Boba Overflow Logo">
+        </a>
+
+        <!-- Mobile Navigation-->
+        <div class="right">
+          <a onclick="showNav()" href="#">
+            <i class="btn-nav" data-feather="menu"></i>
+          </a>
+        </div>
+      </div>
+
+      <ul id="nav-mobile-links">
+        <li class="active">
+          <a href="http://">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="http://">
+            About Us
+          </a>
+        </li>
+        <li>
+          <a href="http://">
+            Menu
+          </a>
+        </li>
+        <li>
+          <a href="http://">
+            Locations
+          </a>
+        </li>
+        <li>
+          <a href="http://">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <section id="hero">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h2>Handcrafted Goodness</h2>
+        <p>Qualitea ingredients you won't find anywhere else.</p>
+
+        <div class="actions">
+          <a href="http://">Menu</a>
+          <a href="http://">Order</a>
+        </div>
+
+        <div class="social">
+          <a href=""><i data-feather="facebook"></i></a>
+          <a href=""><i data-feather="instagram"></i></a>
+          <a href=""><i data-feather="twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+
+    <div class="container">
+      <div class="seperator">
+        <img src="./assets/img/boba.svg" alt="Overflowing Boba Icon">
+      </div>
+
+      <section id="welcome">
+        <div class="section-header">
+          <p>~ No Place Like Home ~</p>
+          <h1>Welcome</h1>
+        </div>
+        <figure>
+          <blockquote>
+            &quot;Lorem ipsum dolor sit amet, consectetur <span class="accent-text">adipiscing</span> elit. In quis
+            neque sit
+            amet leo pretium dapibus. Integer purus augue, placerat vel sapien a, iaculis viverra metus. Sed porttitor
+            fermentum metus non aliquet. <span class="accent-text">Proin</span> vel sapien eget velit lobortis
+            scelerisque
+            quis a quam. Mauris lacus massa, <span class="accent-text">pulvinar</span> sed odio sed, commodo sagittis
+            eros. Nulla quis fringilla tellus, sit amet mollis libero. Sed <span class="accent-text">tincidunt</span>
+            nunc.&quot;
+
+          </blockquote>
+
+          <figcaption>- Business Owner</p>
+        </figure>
+      </section>
+
+      <section id="drinks">
+        <div class="section-header">
+          <p>~ The Little Stuff Matters ~</p>
+          <h2>What Makes Our Drinks Special?</h2>
+        </div>
+
+        <div class="grid">
+          <div class="col">
+            <div class="feature feature-left">
+              <div id="icon-eco" class="feature-icon">
+                <i data-feather="refresh-cw"></i>
+              </div>
+              <div class="feature-content">
+                <h5>Eco-Friendly</h5>
+                <p>We are in the process of swapping out plastic straws in our stores to paper straws
+                  to reduce plastic waste.</p>
+              </div>
+            </div>
+
+            <div class="feature feature-left">
+              <div id="icon-coffee" class="feature-icon">
+                <i data-feather="coffee"></i>
+              </div>
+              <div class="feature-content">
+                <h5>Premium Cups</h5>
+                <p>Our drinks are spill-proof with our own Boba Overflow Bulletproof Cups.</p>
+              </div>
+            </div>
+
+            <div class="feature feature-left">
+              <div id="icon-sun" class="feature-icon">
+                <i data-feather="sun"></i>
+              </div>
+              <div class="feature-content">
+                <h5>Glow in the Dark</h5>
+                <p>Carefully prepared, our drinks are glow in the dark.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col big-col">
+            <img src="./assets/img/bubbletea.png" alt="House Special Bubble Tea">
+          </div>
+
+          <div class="col">
+
+            <div class="feature feature-right">
+              <div id="icon-heart" class="feature-icon">
+                <i data-feather="heart"></i>
+              </div>
+              <div class="feature-content">
+                <h5>Made with Love</h5>
+                <p>All of our ingredients are prepared in-house, providing our customers with the
+                  feeling of home.</p>
+              </div>
+            </div>
+
+            <div class="feature feature-right">
+              <div id="icon-gift" class="feature-icon">
+                <i data-feather="gift"></i>
+              </div>
+              <div class="feature-content">
+                <h5>Carefully crafted</h5>
+                <p>In addition to our ingredients being created in house, the drinks are hand mixed to
+                  provide a consistent flavor.</p>
+              </div>
+            </div>
+
+            <div class="feature feature-right">
+              <div id="icon-circle" class="feature-icon">
+                <i data-feather="circle"></i>
+              </div>
+              <div class="feature-content">
+                <h5>Soft and Chewy</h5>
+                <p>We believe that tapioca balls should be a balanced amount of soft and chewy.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonies">
+        <div class="section-header">
+          <p>~ Loved By Many ~</p>
+          <h2>Customer Testimonies</h2>
+        </div>
+        <div class="grid">
+
+          <div class="card">
+            <div class="card-header">
+              <div class="user-img">
+                <img class="circle" src="./assets/img/avatar.png" alt="Temporary Avatar" width="30px">
+              </div>
+              <div class="contact-user">
+                <span id="name">John Doe</span>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p>
+                Nunc mattis vulputate elementum. Donec at nunc ac leo interdum condimentum vel in felis. Ut viverra ante
+                sit
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="user-img">
+                <img class="circle" src="./assets/img/avatar.png" alt="Temporary Avatar" width="30px">
+              </div>
+              <div class="contact-user">
+                <span id="name">John Doe</span>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p>
+                Nunc mattis vulputate elementum. Donec at nunc ac leo interdum condimentum vel in felis. Ut viverra ante
+                sit
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="user-img">
+                <img class="circle" src="./assets/img/avatar.png" alt="Temporary Avatar" width="30px">
+              </div>
+              <div class="contact-user">
+                <span id="name">John Doe</span>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <p>
+                Nunc mattis vulputate elementum. Donec at nunc ac leo interdum condimentum vel in felis. Ut viverra ante
+                sit
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <section class="subscription">
+        <div class="section-header">
+          <h2>Subscribe to our Mailing List</h2>
+          <p>Get Promotions and Discounts</p>
+        </div>
+
+        <form>
+          <label for="user-email">Email Address</label>
+          <br>
+          <input type="email" name="user-email" id="user-email">
+          <br>
+          <br>
+          <a class="btn" href="http://">
+            Subscribe
+          </a>
+        </form>
+
+      </section>
+
+      <div class="social">
+        <a href=""><i data-feather="facebook"></i></a>
+        <a href=""><i data-feather="instagram"></i></a>
+        <a href=""><i data-feather="twitter"></i></a>
+      </div>
+
+      <p class="copytext-right">&copy; 2020 Boba Overflow by <a href="http://dsccsuf.com/">CSUF DSC</a>. All Rights
+        Reserved.
+      </p>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <script>
+    feather.replace()
+
+    // Mobile Navigation
+    function showNav() {
+      var links = document.getElementById("nav-mobile-links");
+      if (links.style.display === "block") {
+        links.style.display = "none";
+      } else {
+        links.style.display = "block";
+      }
+    }
+  </script>
+</body>
+
+</html>
