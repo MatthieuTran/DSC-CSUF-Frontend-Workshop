@@ -250,6 +250,7 @@ section .section-header p {
 }
 
 #hero h2 {
+  font-size: 3em;
   color: #fff;
 }
 
@@ -263,6 +264,10 @@ section .section-header p {
   position: relative;
 }
 
+#hero .push-right {
+  margin-left: 30px;
+}
+
 #hero .hero-text {
   text-align: center;
   position: absolute;
@@ -271,6 +276,10 @@ section .section-header p {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #fff;
+}
+
+#hero .social {
+  margin-top: 10%;
 }
 
 .card {
